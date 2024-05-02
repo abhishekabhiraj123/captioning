@@ -21,7 +21,7 @@ def query(uploaded_file):
         return []
 
 # Streamlit app
-st.title("Image Captioning with Hugging Face Model")
+st.title("Image Captioning with blip image-captioning Large Moacha Model")
 st.markdown("Upload an image, and this app will generate captions for it using the image captioning model.")
 
 # Upload image
