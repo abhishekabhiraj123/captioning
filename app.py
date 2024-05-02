@@ -22,7 +22,7 @@ def query(uploaded_file):
 
 # Streamlit app
 st.title("Image Captioning with Hugging Face Model")
-st.markdown("Upload an image, and this app will generate captions for it using the Hugging Face image captioning model.")
+st.markdown("Upload an image, and this app will generate captions for it using the image captioning model.")
 
 # Upload image
 uploaded_image = st.file_uploader("Choose an image", type=["jpg", "jpeg", "png"])
